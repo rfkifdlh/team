@@ -1,0 +1,52 @@
+body{
+    background-color:#E6CA7C;
+    font-family: "Koulen", serif;
+    padding: 0 30px;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 80px;
+    color: #442419;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+/* espresso */
+.espresso-container {
+    height: auto; /* Tetap menggunakan tinggi 100vh */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+
+.espresso-text {
+    color: #442419;
+    margin-top: 30px;
+}
+
+.espresso-card {
+    background-color: #442419;
+    border-radius: 20px;
+    width: 250px;
+    border: 2px solid #442419;
+    height: 300px;
+    box-shadow: 0 2px 10px black;
+}
+
+.espresso-image {
+    background-color: #E6CA7C;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.espresso-info {
+    padding: 10px;
+}
+
+.espresso-info h4 {
+    color: #E6CA7C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
