@@ -1,7 +1,8 @@
 body{
     background-color:#E6CA7C;
     font-family: "Koulen", serif;
-    padding: 0 30px;
+    background: linear-gradient(to top, #FFD1DC, #F8E5C0, #F3D6A2, #E6CA7C);
+    background-attachment: fixed;
 }
 
 .title h1 {
@@ -12,22 +13,25 @@ body{
     letter-spacing: 5px;
 }
 
-/* espresso */
-.espresso-container {
-    height: auto; /* Tetap menggunakan tinggi 100vh */
+/* menu */
+.coffee-container {
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     text-align: center;
+    justify-content: center;
     padding-top: 20px;
+    margin-bottom: 8rem;
 }
 
-.espresso-text {
+.coffee-text {
     color: #442419;
     margin-top: 30px;
+    margin-left: 30px;
 }
 
-.espresso-card {
+.coffee-card {
     background-color: #442419;
     padding-top: 20px;
     border-radius: 20px;
@@ -37,18 +41,47 @@ body{
     box-shadow: 0 2px 10px black;
 }
 
-.espresso-image {
+.coffee-image {
     background-color: #E6CA7C;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 
-.espresso-info {
+.coffee-info {
     padding: 10px;
 }
 
-.espresso-info h4 {
+.coffee-info h4 {
     color: #E6CA7C;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #442419;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #E6CA7C;
+    padding: 1.5rem 0 0;
+    margin: 5px 5px 0;
+}
+
+footer p{
+    font-size: small;
+    color: #E6CA7C;
+    text-align: center;
+    padding: 0 0 1rem;
 }
