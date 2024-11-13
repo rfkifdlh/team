@@ -99,7 +99,7 @@ h2{
     border: 2px solid #442419;
     height: auto;
     box-shadow: 0 2px 10px black;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .coffee-card:hover {
     transform: scale(1.05);
