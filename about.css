@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(248, 236, 201);
+}
+ /* bagian pertama */
+.h-coffee {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    background-image: linear-gradient(to bottom, #f7f5f2 70%, rgba(255, 255, 255, 0.6)), url('assets/image/hand-drawn-coffee-bean-drawing-pattern_23-2150646733.avif');     
+    height: 100vh;      
+    box-shadow: 0 30px 100px rgb(255, 255, 255);       
+    text-align: center;        
+    flex-direction: column;
+}
+
+.h-coffee img {
+    width: 150px;
+    height: 150px;
+}
+  
+.h-coffee h1 {
+    font-size: 4rem;
+    color: #442419;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+}
+
+.h-coffee p {
+    margin-top: 1.25rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.67;
+    max-width: 34rem;
+    font-family: 'Catamaran', serif;
+    font-weight: 700 ;
+}
+/* bagian kedua */
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container img {
+    width: 450px;
+    height: auto;
+    margin-right: 115px;
+}
+/* bagian ketiga */
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.container-1 img {
+    width: 450px;
+    height: auto;
+}
+/* footer */
+.footer {
+    background-image: url('assets/image/hand-drawn-coffee-bean-drawing-pattern_23-2150646733.avif');
+    color: brown;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
