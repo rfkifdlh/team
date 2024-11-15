@@ -96,14 +96,9 @@ footer p{
 /* footer */
 
 /* button */
-.all-menu {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .all-menu-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 60px;
     background-color: #442419;
     color: #E6CA7C;
     font-size: 18px;
