@@ -1,5 +1,4 @@
 body{
-    background-color:#E6CA7C;
     font-family: "Koulen", serif;
     background: linear-gradient(to top, #FFD1DC, #F8E5C0, #F3D6A2, #E6CA7C);
     background-attachment: fixed;
@@ -39,6 +38,11 @@ body{
     border: 2px solid #442419;
     height: 320px;
     box-shadow: 0 2px 10px black;
+    transition: all 0.3s;
+}
+
+.coffee-card:hover {
+    transform: scale(1.05);
 }
 
 .coffee-image {
