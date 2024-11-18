@@ -14,7 +14,7 @@ body{
 }
 
 /* menu */
-.coffee-container {
+.drink-container {
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ body{
     margin-bottom: 8rem;
 }
 
-.coffee-text {
+.drink-text {
     color: #442419;
     font-size: 35px;
     margin-top: 50px;
@@ -32,7 +32,7 @@ body{
     letter-spacing: 1.5px;
 }
 
-.coffee-card {
+.drink-card {
     background-color: #442419;
     padding-top: 20px;
     text-align: center;
@@ -44,22 +44,22 @@ body{
     transition: all 0.3s;
 }
 
-.coffee-card:hover {
+.drink-card:hover {
     transform: scale(1.05);
 }
 
-.coffee-image {
+.drink-image {
     background-color: #E6CA7C;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 
-.coffee-info {
+.drink-info {
     padding: 10px;
 }
 
-.coffee-info h4 {
+.drink-info h4 {
     color: #E6CA7C;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
