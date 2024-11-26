@@ -1,5 +1,5 @@
 body{
-    background:url('assets/image/bc.jpg') no-repeat center center/cover;
+    background:url('assets/image/coffee-frame.jpg') no-repeat center center/cover;
     /* background: linear-gradient(to top, #FFD1DC, #F8E5C0, #F3D6A2); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -13,7 +13,7 @@ body{
     /* border: 5px solid #442419; */
     border-radius: 20px;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
-    margin: 8rem 2rem 6rem;
+    margin: 6.5rem 2rem 1rem;
     transition: all 1s;
 }
 /* .contact-section:hover{
@@ -49,15 +49,27 @@ body{
 }
 .lokasi {
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 10px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
-    margin: 8rem 2rem 6rem;
+    margin: 6.5rem 2rem 1rem;
 }
 .lokasi h2 {
     color: #442419;
     margin-bottom: 20px;
+}
+.Order{
+    color: #442419;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 2rem 5rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.Order h2{
+    margin: 0;
 }
 footer{
     position: absolute;
@@ -82,4 +94,31 @@ footer p{
     color: #E6CA7C;
     text-align: center;
     padding: 0 0 1rem;
+}
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+ 
+}
+
+@media (max-width: 768px) {
+    .contact-body{
+        display: flex;
+        flex-direction: column;  
+    }
+    .lokasi{
+        margin: 1rem 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-body{
+        display: flex;
+        flex-direction: column;  
+    }
+    .lokasi{
+        margin: 1rem 2rem;
+    }
 }

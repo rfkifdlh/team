@@ -31,12 +31,13 @@ nav {
     color: #653A2A;
     font-family: "Satisfy", cursive;
 }
-a {
-    padding: 10px 20px;
+.nav-link{
     margin-right: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.navbar-brand{
+    padding: 0 20px;
+}
 </style>
 <body>
     <!-- navbar -->
@@ -51,167 +52,103 @@ a {
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="index.html"><b>Home</b></a>
                 <a class="nav-link active" aria-current="page" href="menu.html"><b>Menu</b></a>
-                <!-- <a class="nav-link" href="order.html"><b>Order</b></a> -->
-                <a class="nav-link" href="about.html"><b>About Us</b></a>
-                <a class="nav-link" href="contact.html"><b>Contact</b></a>
+              <a class="nav-link" href="about.html"><b>About Us</b></a>
+              <a class="nav-link" href="contact.html"><b>Location</b></a>
             </div>
           </div>
         </div>
       </nav>
-    <!-- navbar -->
+<!-- navbar -->
+
 
     <!-- bagian menu -->
      <div class="title">
         <h1>MENU</h1>
      </div>
-    <!-- espresso - based drinks -->
-     <section class="coffee">
-        <div class="coffee-text">
-            <h2><u>espresso - based drinks</u></h2>
+    <!-- minuman -->
+     <!-- espresso - based drinks -->
+     <section class="menu">
+        <div class="menu-text">
+            <p><u>Minuman</u></p>
         </div>
-        <div class="coffee-container">
-            <div class="coffee-card">
-                <img src="assets/image/americano.png" alt="Americano" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Americano</h4>
-                    <h4>RP. 12.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/cap.png" alt="cappuccino" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Cappuccino</h4>
-                    <h4>RP. 15.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/mocha.png" alt="mocha" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Mocha</h4>
-                    <h4>RP. 18.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/macchiato.png" alt="macchiato" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Macchiato</h4>
-                    <h4>RP. 12.000,00</h4>
-                </div>
-            </div>
-        </div>
-     </section>
-    <!-- espresso - based drinks -->
-    <!-- cold coffee variants -->
-     <section class="coffee">
-        <div class="coffee-text">
-            <h2><u>Cold Coffee Variants</u></h2>
-        </div>
-        <div class="coffee-container">
-            <div class="coffee-card">
-                <img src="assets/image/ice-capp.png" alt="Americano" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Iced Cappuccino</h4>
-                    <h4>RP. 15.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/ice-mocha.png" alt="cappuccino" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Iced Mocha</h4>
-                    <h4>RP. 18.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/ice-float.png" alt="mocha" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Iced Coffee Float</h4>
-                    <h4>RP. 18.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/ice-honey.png" alt="macchiato" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Iced Honey Coffee</h4>
-                    <h4>RP. 20.000,00</h4>
-                </div>
-            </div>
-        </div>
-     </section>
-    <!-- cold coffee variants -->
-    <!-- flavored coffee -->
-     <section class="coffee">
-        <div class="coffee-text">
-            <h2><u>Flavored Coffee</u></h2>
-        </div>
-        <div class="coffee-container">
-            <div class="coffee-card">
-                <img src="assets/image/vanila-latte.png" alt="Americano" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Vanila Latte</h4>
-                    <h4>RP. 17.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/hazelnut.png" alt="cappuccino" class="coffee-image">
-                <div class="coffee-info">
+        <div class="menu-container">
+            <div class="menu-card">
+                <a href="hazelnut.html"><img src="assets/image/hazelnut.png" alt="hazelnut" class="menu-image"></a>
+                <div class="menu-info">
                     <h4>Hazelnut Latte</h4>
                     <h4>RP. 17.000,00</h4>
                 </div>
             </div>
-            <div class="coffee-card">
-                <img src="assets/image/caramel.png" alt="mocha" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Caramel Machiato</h4>
-                    <h4>RP. 18.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/tiramisu.png" alt="macchiato" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Tiramisu Latte</h4>
-                    <h4>RP. 20.000,00</h4>
-                </div>
-            </div>
-        </div>
-     </section>
-    <!-- flavored coffee -->
-    <!-- non-coffee drinks -->
-     <section class="coffee">
-        <div class="coffee-text">
-            <h2><u>Non-Coffee Drinks</u></h2>
-        </div>
-        <div class="coffee-container">
-            <div class="coffee-card">
-                <img src="assets/image/matcha.png" alt="Americano" class="coffee-image">
-                <div class="coffee-info">
+            <div class="menu-card">
+                <a href="matcha.html"><img src="assets/image/matcha.png" alt="matcha" class="menu-image"></a>
+                <div class="menu-info">
                     <h4>Matcha Latte</h4>
                     <h4>RP. 18.000,00</h4>
                 </div>
             </div>
-            <div class="coffee-card">
-                <img src="assets/image/red.png" alt="cappuccino" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Red Velvet Latte</h4>
-                    <h4>RP. 18.000,00</h4>
-                </div>
-            </div>
-            <div class="coffee-card">
-                <img src="assets/image/hot-chocolate.png" alt="mocha" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Hot Chocolate</h4>
+            <div class="menu-card">
+                <a href="capp.html"><img src="assets/image/cap.png" alt="cappuccino" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>Cappuccino</h4>
                     <h4>RP. 15.000,00</h4>
                 </div>
             </div>
-            <div class="coffee-card">
-                <img src="assets/image/milkshake.png" alt="macchiato" class="coffee-image">
-                <div class="coffee-info">
-                    <h4>Milkshake</h4>
+            <div class="menu-card">
+                <a href="ice-mocha.html"><img src="assets/image/ice-mocha.png" alt="ice-mocha" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>Iced Mocha</h4>
                     <h4>RP. 18.000,00</h4>
                 </div>
             </div>
+            <div class="all-menu">
+                <a href="drink.html" class="all-menu-button">Lihat Semua Menu Minuman</a>
+            </div>
         </div>
      </section>
-    <!-- non-coffee drinks -->
+    <!-- espresso - based drinks -->
+    <!-- minuman -->
+
+    <!-- makanan -->
+    <section class="menu">
+        <div class="menu-text">
+            <p><u>Makanan</u></p>
+        </div>
+        <div class="menu-container">
+            <div class="menu-card">
+                <a href="french.html"><img src="assets/image/french-fries.png" alt="french-fries" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>French Fries</h4>
+                    <h4>RP. 15.000,00</h4>
+                </div>
+            </div>
+            <div class="menu-card">
+                <a href="moz.html"><img src="assets/image/mozarella.png" alt="mozarella" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>Mozarella Sticks</h4>
+                    <h4>RP. 25.000,00</h4>
+                </div>
+            </div>
+            <div class="menu-card">
+                <a href="pasta.html"><img src="assets/image/pasta.png" alt="pasta" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>Pasta</h4>
+                    <h4>RP. 25.000,00</h4>
+                </div>
+            </div>
+            <div class="menu-card">
+                <a href="nachos.html"><img src="assets/image/nachos.png" alt="Nachos" class="menu-image"></a>
+                <div class="menu-info">
+                    <h4>Nachos</h4>
+                    <h4>RP. 15.000,00</h4>
+                </div>
+            </div>
+            <div class="all-menu">
+                <a href="food.html" class="all-menu-button">Lihat Semua Menu Makanan</a>
+            </div>
+        </div>
+     </section>
+
+    <!-- makanan -->
     <!-- bagian menu -->
     <!-- footer  -->
      <footer>

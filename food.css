@@ -1,4 +1,5 @@
 body{
+    background-color:#E6CA7C;
     font-family: "Koulen", serif;
     background: linear-gradient(to top, #FFD1DC, #F8E5C0, #F3D6A2, #E6CA7C);
     background-attachment: fixed;
@@ -13,7 +14,7 @@ body{
 }
 
 /* menu */
-.menu-container {
+.food-container {
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +24,7 @@ body{
     margin-bottom: 8rem;
 }
 
-.menu-text {
+.food-text {
     color: #442419;
     font-size: 35px;
     margin-top: 50px;
@@ -31,7 +32,7 @@ body{
     letter-spacing: 1.5px;
 }
 
-.menu-card {
+.food-card {
     background-color: #442419;
     padding-top: 20px;
     text-align: center;
@@ -43,22 +44,22 @@ body{
     transition: all 0.3s;
 }
 
-.menu-card:hover {
+.food-card:hover {
     transform: scale(1.05);
 }
 
-.menu-image {
+.food-image {
     background-color: #E6CA7C;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 
-.menu-info {
+.food-info {
     padding: 10px;
 }
 
-.menu-info h4 {
+.food-info h4 {
     color: #E6CA7C;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -95,14 +96,9 @@ footer p{
 /* footer */
 
 /* button */
-.all-menu {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.all-menu-button {
+.back-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 60px;
     background-color: #442419;
     color: #E6CA7C;
     font-size: 18px;
@@ -113,7 +109,7 @@ footer p{
     box-shadow: 0px 5px 10px black;
 }
 
-.all-menu-button:hover {
+.back-button:hover {
     transform: scale(1.05);
 }
 /* button */
