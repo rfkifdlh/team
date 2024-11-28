@@ -3,16 +3,16 @@
 }
 
 body {
-    background-color:rgb(248, 236, 201);
+    background-color:rgba(248, 236, 201, 0.811);
+    background: linear-gradient(-34deg, rgb(248, 236, 201) 25%, transparent 25%), linear-gradient(46deg, rgba(248, 236, 201, 0.601) 50%, #f5e2c7 25%);
 }
  /* bagian pertama */
 .h-coffee {
     display: flex;
     justify-content: center;  
     align-items: center; 
-    background-image: linear-gradient(to bottom, #f7f5f2 70%, rgba(255, 255, 255, 0.6)), url('assets/image/hand-drawn-coffee-bean-drawing-pattern_23-2150646733.avif');     
+    background-image: linear-gradient(to bottom, #f5dfbf 80%, rgb(248, 236, 201, 0.6)), url('assets/image/hand-drawn-coffee-bean-drawing-pattern_23-2150646733.avif');     
     height: 100vh;      
-    box-shadow: 0 30px 100px rgb(255, 255, 255);       
     text-align: center;        
     flex-direction: column;
 }
@@ -22,7 +22,7 @@ body {
     height: 150px;
 }
   
-.h-coffee h1 {
+.h-coffee h2         {
     font-size: 4rem;
     color: #442419;
     font-family: 'Archivo Narrow', sans-serif;
@@ -38,41 +38,148 @@ body {
     font-family: 'Catamaran', serif;
     font-weight: 700 ;
 }
-/* bagian kedua */
-.container {
-    display: flex;
-    align-items: center;
-    height: 100vh;
+/* bagian kedua*/
+.founders {
+    text-transform: uppercase;
+    height: 90vh;
 }
 
-.container img {
-    width: 450px;
-    height: auto;
-    margin-right: 115px;
+.founders h1 {
+    text-align: center;
+    margin-top: 75px;
 }
-/* bagian ketiga */
+
+.founders .portfolio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.founders .text-1 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.founders img {
+    width: 375px;
+    height: auto;
+    margin:  75px 0px 20px 0px;
+}
+
+.founders a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 600;
+}
+  
+.founders a::before,
+.founders a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.founders a::before {
+    background-color: #54b3d6;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.founders a::after {
+    content: attr(data-replace);
+    height: 100%;
+    transform-origin: 100% 100%;
+    transform: translate3d(100%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #54b3d6;
+}
+  
+.founders a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.founders a:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.founders a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.founders a:hover span {
+    transform: translate3d( -150%, 0, 0);
+}
+/* bagian ketiga, kelima */
 .container-1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     height: 50vh;
 }
 
 .container-1 img {
     width: 450px;
     height: auto;
+    margin-left: 115px;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 450;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+.text h4 {
+    font-weight: 700;
+}
+
+#b5 {
+    margin-bottom: 125px;
+}
+/* bagian keempat */
+.container-2 {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-2 img {
+    width: 450px;
+    height: auto;
+    margin-right: 115px;
 }
 /* footer */
-.footer {
-    background-image: url('assets/image/hand-drawn-coffee-bean-drawing-pattern_23-2150646733.avif');
-    color: brown;
-    font-size: 1.5rem;
-    margin-top: 6rem;
-    text-align: center;
-    padding: 40px 0;
-    position: relative;
-    bottom: 0;
+footer{
+    position: absolute;
     width: 100%;
-  }
+    height: auto;
+    background-color: #442419;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #E6CA7C;
+    padding: 1.5rem 0 0;
+    margin: 5px 5px 0;
+}
+footer p{
+    font-size: small;
+    color: #E6CA7C;
+    text-align: center;
+    padding: 0 0 1rem;
+}
 
   
