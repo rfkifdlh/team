@@ -1,5 +1,4 @@
 body{
-    background-color:#E6CA7C;
     font-family: "Koulen", serif;
     background: linear-gradient(to top, #FFD1DC, #F8E5C0, #F3D6A2, #E6CA7C);
     background-attachment: fixed;
@@ -9,23 +8,27 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 7rem;
-    background:url('assets/image/9518879.jpg') no-repeat center center/cover;
+    padding: 2.5rem 0 0;
+    background:url('assets/image/cbg.jpg') no-repeat center center/cover;
 }
 .text{
     padding: 2rem;
+    margin-left: 7rem;
     border: 3px solid #442419;
     color: #442419;
     border-radius: 15px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(12px);
-    /* transition: all 0.3s ease; */
 }
 h1{
     margin: 0 0 0.3rem;
 }
 h4{
     margin: 0 0 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .description{
     margin: 2rem;
@@ -33,15 +36,16 @@ h4{
 .description p{
     text-align: center;
     font-size: x-large;
-    padding:2.5rem;
+    padding: 2.5rem;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 15px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
 }
 .promo {
-    color: #222;
+    color: #442419;
     padding: 10px 20px;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
     border: 2px solid #442419;
@@ -63,7 +67,6 @@ h4{
     top: auto;
     padding:0 0 0 2rem;
 }
-
 .tengah{
     width: 100%;
     height: auto;
@@ -83,7 +86,7 @@ h2{
     text-align: center;
     justify-content: center;
     padding-top: 20px;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .coffee-text {
@@ -99,7 +102,7 @@ h2{
     border: 2px solid #442419;
     height: auto;
     box-shadow: 0 2px 10px black;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .coffee-card:hover {
     transform: scale(1.05);
@@ -117,7 +120,7 @@ h2{
 
 .coffee-info h4 {
     color: #E6CA7C;
-   
+    text-align: center;
 }
 .coffee-info h6 {
     color: #ac9a68;
@@ -146,4 +149,135 @@ footer p{
     color: #E6CA7C;
     text-align: center;
     padding: 0 0 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .text{
+        margin-left: 3rem;
+    }
+    .coffee-container {
+        gap: 42px;
+        padding-top: 18px;
+        margin-bottom: 3.2rem;
+    }
+    .coffee-text {
+        margin-top: 25px;
+    }
+    .coffee-card {
+        padding-top: 17px;
+        width: 230px;
+    }
+    .coffee-image {
+        width: 180px;
+        height: 180px;
+    }
+    .coffee-info {
+        padding: 5px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .awal{
+        background: url(assets/image/bc.jpg) no-repeat center center/cover;
+        padding: 1rem;
+   }
+    .text{
+        padding: 1.5rem;
+        margin: 0 2rem ;
+    }
+    .description{
+        margin: 2rem;
+    }
+    .description p{
+        text-align: center;
+        font-size: large;
+    }
+    .coffee-container {
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 12px;
+        margin-bottom: 2.9rem;
+    }
+    .coffee-text {
+        color: #442419;
+        margin-top: 18px;
+    }
+    .coffee-card {
+        padding-top: 15px;
+        width: 180px;
+        transition: all 0.3s;
+    }
+    .coffee-image {
+        width: 150px;
+        height: 150px;
+    }
+    .coffee-info {
+        padding: 8px 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+   .awal{
+        background: url(assets/image/bgc.jpg) no-repeat center center/cover;
+        padding: 1rem;
+   }
+   .text{
+        padding: 1.5rem;
+        text-align: center;
+        background: #E7DECF;
+        box-shadow: none;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text h4{
+        font-size: 15px;
+    }
+    .promo{
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+    .description{
+        margin: 2rem;
+    }
+    .description p{
+        text-align: center;
+        font-size: small;
+        padding: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 15px;
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    }
+    .coffee-container {
+        gap: 28px;
+        padding-top: 8px;
+        margin-bottom: 2.5rem;
+    }
+    .coffee-text {
+        margin-top: 12px;
+    }
+    .coffee-card {
+        padding-top: 8px;
+        width: 100px;
+    }
+    .coffee-image {
+        width: 80px;
+        height: 80px;
+    }
+    .coffee-info {
+        padding: 2px 0 0;
+    }
+    .coffee-info h4 {
+        font-size: 70%;
+    }
+    .coffee-info h6 {
+        font-size: 50%;
+    }
+    
 }
