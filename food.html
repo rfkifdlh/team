@@ -31,10 +31,12 @@ nav {
     color: #653A2A;
     font-family: "Satisfy", cursive;
 }
-a {
-    padding: 10px 20px;
-    margin-right: 1.5rem;
+.nav-link {
+    margin-right: 1.5rem;   
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    padding: 0 20px;
 }
 
 </style>
@@ -54,7 +56,7 @@ a {
                 <a class="nav-link" href="index.html"><b>Home</b></a>
                 <a class="nav-link active" aria-current="page" href="menu.html"><b>Menu</b></a>
               <a class="nav-link" href="about.html"><b>About Us</b></a>
-              <a class="nav-link" href="contact.html"><b>Location</b></a>
+              <a class="nav-link" href="location.html"><b>Location</b></a>
             </div>
           </div>
         </div>
@@ -63,13 +65,10 @@ a {
 
 
     <!-- bagian menu -->
-     <div class="title">
-        <h1>FOOD MENU</h1>
-     </div>
     <!-- snack -->
       <section class="food">
         <div class="food-text">
-            <h2><u>Snack</u></h2>
+            <h1><u>Snack</u></h1>
         </div>
         <div class="food-container">
             <div class="food-card">
@@ -100,6 +99,10 @@ a {
                     <h4>RP. 15.000,00</h4>
                 </div>
             </div>
+        </div>
+     </section>
+      <section class="food">
+        <div class="food-container">
             <div class="food-card">
                 <a href="spring.html"><img src="assets/image/spring.png" alt="spring-rolls" class="food-image"></a>
                 <div class="food-info">
@@ -134,7 +137,7 @@ a {
     <!-- main course -->
     <section class="food">
         <div class="food-text">
-            <h2><u>Main Course</u></h2>
+            <h1><u>Main Course</u></h1>
         </div>
         <div class="food-container">
             <div class="food-card">
@@ -171,7 +174,7 @@ a {
     <!-- appetizer -->
     <section class="food">
         <div class="food-text">
-            <h2><u>Appetizer</u></h2>
+            <h1><u>Appetizer</u></h1>
         </div>
         <div class="food-container">
             <div class="food-card">
@@ -202,9 +205,9 @@ a {
                     <h4>RP. 10.000,00</h4>
                 </div>
             </div>
-            <div class="back">
-                <a href="menu.html" class="back-button">Kembali</a>
-            </div>
+        </div>
+        <div class="back">
+            <a href="menu.html" class="back-button">Kembali</a>
         </div>
      </section>
     <!-- appetizer -->
@@ -221,5 +224,7 @@ a {
             MADE IN INDONESIA.</p>
      </footer>
     <!-- footer  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
    </body>
 </html>

@@ -31,10 +31,12 @@ nav {
     color: #653A2A;
     font-family: "Satisfy", cursive;
 }
-a {
-    padding: 10px 20px;
-    margin-right: 1.5rem;
+.nav-link {
+    margin-right: 1.5rem;   
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    padding: 0 20px;
 }
 
 </style>
@@ -54,7 +56,7 @@ a {
                 <a class="nav-link" href="index.html"><b>Home</b></a>
                 <a class="nav-link active" aria-current="page" href="menu.html"><b>Menu</b></a>
               <a class="nav-link" href="about.html"><b>About Us</b></a>
-              <a class="nav-link" href="contact.html"><b>Location</b></a>
+              <a class="nav-link" href="location.html"><b>Location</b></a>
             </div>
           </div>
         </div>
@@ -63,16 +65,11 @@ a {
 
 
     <!-- bagian menu -->
-     <div class="title">
-        <h1>DRINK MENU</h1>
-     </div>
-
-     
     <!-- minuman -->
      <!-- espresso - based drinks -->
      <section class="drink">
         <div class="drink-text">
-            <h2><u>espresso - based drinks</u></h2>
+            <h1><u>espresso - based drinks</u></h1>
         </div>
         <div class="drink-container">
             <div class="drink-card">
@@ -109,7 +106,7 @@ a {
     <!-- cold Coffee variants -->
      <section class="drink">
         <div class="drink-text">
-            <h2><u>Cold Coffee Variants</u></h2>
+            <h1><u>Cold Coffee Variants</u></h1>
         </div>
         <div class="drink-container">
             <div class="drink-card">
@@ -146,7 +143,7 @@ a {
     <!-- flavored coffee -->
      <section class="drink">
         <div class="drink-text">
-            <h2><u>Flavored Coffee</u></h2>
+            <h1><u>Flavored Coffee</u></h1>
         </div>
         <div class="drink-container">
             <div class="drink-card">
@@ -183,7 +180,7 @@ a {
     <!-- non-coffee drinks -->
      <section class="drink">
         <div class="drink-text">
-            <h2><u>Non-Coffee Drinks</u></h2>
+            <h1><u>Non-Coffee Drinks</u></h1>
         </div>
         <div class="drink-container">
             <div class="drink-card">
@@ -214,6 +211,10 @@ a {
                     <h4>RP. 18.000,00</h4>
                 </div>
             </div>
+        </div>
+     </section>
+     <section class="drink">
+        <div class="drink-container">
             <div class="drink-card">
                 <a href="teh.html"><img src="assets/image/teh.png" alt="teh" class="drink-image"></a>
                 <div class="drink-info">
@@ -242,9 +243,9 @@ a {
                     <h4>RP. 8.000,00</h4>
                 </div>
             </div>
-            <div class="all-menu">
-                <a href="menu.html" class="all-menu-button">Kembali</a>
-            </div>
+        </div>
+        <div class="back">
+            <a href="menu.html" class="back-button">Kembali</a>
         </div>
      </section>
     <!-- non-coffee drinks -->
@@ -261,5 +262,7 @@ a {
             MADE IN INDONESIA.</p>
      </footer>
     <!-- footer  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
    </body>
 </html>
