@@ -193,126 +193,10 @@ footer p {
     padding: 0 0 1rem;
 }
 
-@media (max-width: 768px) {
-
-    .founders {
-        padding: 2rem 1rem;
-        background-color: transparent; 
-    }
-
-    .founders h1 {
-        font-size: 1.8rem;
-        color: #654321;
-        text-align: center;
-        margin-bottom: 1.5rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-    }
-
-    .founders .portfolio {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        justify-items: center; 
-    }
-
-    .founders .portfolio > div:nth-child(1),
-    .founders .portfolio > div:nth-child(2) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        border-radius: 8px;
-        background-color: rgba(248, 236, 201, 0.6);
-        border: 1px solid rgba(101, 67, 33, 0.2);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .founders .portfolio > div:hover {
-        transform: scale(1.05);
-    }
-
-    .founders .portfolio > div {
-        border: 1px solid rgba(101, 67, 33, 0.2);
-        border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    }
-    
-    .founders .portfolio > div img {
-        width: 180px; 
-        height: 180px; 
-        object-fit: cover; 
-        border-radius: 10%;
-    }
-
-    .founders .portfolio > div h2 {
-        font-size: 1rem;
-    }
-
-    .founders .portfolio > div a {
-        text-decoration: none;
-        font-size: 0.85rem;
-        font-weight: 500;
-        color: #654321;
-        display: inline-block;
-        padding: 0.3rem 0.5rem;
-        border: 1px solid #896d47;
-        border-radius: 4px; 
-        background-color: #f5e2c7;
-        transition: all 0.2s ease-in-out;
-    }
-
-    .founders .portfolio > div a:hover {
-        color: #fff;
-        background-color: #896d47;
-        border-color: #654321;
-    }
- 
-    .founders .portfolio > div:nth-child(3) {
-        grid-column: span 2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        border-radius: 8px;
-        background-color: rgba(248, 236, 201, 0.6);
-        border: 1px solid rgba(101, 67, 33, 0.2);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    }
-
-    .founders .portfolio > div:nth-child(3) h2 {
-        font-size: 1rem;
-        color: #442419;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
-    }
-
-    .founders .portfolio > div:nth-child(3) a {
-        text-decoration: none;
-        font-size: 0.85rem;
-        font-weight: 500;
-        color: #654321;
-        display: inline-block;
-        padding: 0.3rem 0.5rem;
-        border: 1px solid #896d47;
-        border-radius: 4px;
-        background-color: #f5e2c7;
-        transition: all 0.2s ease-in-out;
-    }
-
-    .founders .portfolio > div:nth-child(3) a:hover {
-        color: #fff;
-        background-color: #896d47;
-        border-color: #654321;
-    }   
-
+@media (max-width: 1024px) {
     .container-1, .container-2 {
         flex-direction: column;
-        margin: 2rem 1rem;
+        margin: 2rem 2rem;
     }
     
     .container-1 img, .container-2 img {
@@ -320,7 +204,7 @@ footer p {
         margin: 1rem 0;
     }
     
-    .text {
+    .text {     
         text-align: center;
         margin: 0;
     }
@@ -338,5 +222,82 @@ footer p {
         margin: 0.5rem 0;
         font-size: 1.5rem;
     }
+}
+
+@media (max-width: 857px) {
+    .founders h1 {
+        font-size: 1.8rem;
+    }
+
+    .founders .portfolio > div img {
+        width: 180px; 
+        height: 180px; 
+    }
+
+    .text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-1, .container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .founders h1 {
+        font-size: 1.7rem;
+    }
+
+    .founders .portfolio > div img {
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .container-1, .container-2 {
+        flex-direction: column;
+        margin: 0 20px 0 0;
+    }
+
+    .founders h1 {
+        font-size: 1.4rem;
+    }   
+
+    .founders .portfolio > div img {
+        width: 120px; 
+        height: 120px; 
+    }
+
+    .text p {
+        font-size: 1.1rem;
+        margin:  0 30px 0 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-1, .container-2 {
+        flex-direction: column;
+        margin: 0 20px 0 0;
+    }
+    
+    .founders h1 {
+        font-size: 1.3rem;
+    }   
+
+    .founders .portfolio > div img {
+        width: 80px; 
+        height: 80px; 
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
 }
 
